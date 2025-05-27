@@ -1,1 +1,0 @@
-# Influence-of-ATC-Medication-Groups-on-Resting-State-EEG-Power-Variables-
