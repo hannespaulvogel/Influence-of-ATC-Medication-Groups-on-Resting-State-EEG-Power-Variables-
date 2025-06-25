@@ -1,0 +1,57 @@
+AsPredicted Questions
+(version 2.00)
+This blog post on how to answer pre-registration questions may be a useful resource.
+
+1) Data collection. Have any data been collected for this study already? 
+It is complicated. We have already collected some data but explain in Question 8 why readers may consider this a valid pre-registration, nevertheless.
+
+2) Hypothesis. What's the main question being asked or hypothesis being tested in this study? 
+
+We will examine whether different medical groups influence EEG variables differently to controls using quantitative electroencephalography (QEEG) data from the first five minutes of a resting-state EEG task in case-control design. We will focus on analyzing EEG power variables, including alpha, beta, delta, theta, broadband power, peak frequency, and the theta/beta ratio (cf. Malone et al. (2014)). The cases are defined by medication intake groups, classified according to ATC codes (WHO Collaborating Centre for Drug Statistics Methodology), where "N" represents the nervous system: N03 (antiepileptics), N05 (psycholeptics), and N06 (psychoanaleptics). These groups are widely used and integral to the data collection process, providing strong statistical reliability. The data for these secondary analyses stems from the population-based, cross-sectional LIFE-Adult Study conducted by the Leipzig Research Centre for Civilization Diseases between 2011 and 2014, involving participants aged 40–79 (Engel et al., 2023; Loeffler et al., 2015). The LIFE-Adult Study offers a unique opportunity to examine these three medication groups in a population-based cohort, providing the strongest statistical reliability within all groups and yielding the most empirically relevant findings (Höller et al., 2018; Malver et al., 2014; Mucci et al., 2006; Newson & Thiagarajan, 2019). EEG oscillations play a key role in information processing and communication between brain areas. EEG studies have shown associations between brain activity patterns and psychiatric disorders, demonstrating how neural oscillations reflect underlying brain function (Höller et al., 2018; Malver et al., 2014). 
+
+Empirical findings for psycholeptics (N05), particularly antipsychotics (N=125), demonstrate an association with increased delta and theta power and decreased alpha and beta power in QEEG (De Pieri et al., 2023; Hyun et al., 2011; Mucci et al., 2006).  Antiepileptics (N03), N=93, have been linked to increased low-frequency and reduced high-frequency power, with beta activity (15–25 Hz) consistently reflecting medication effects (Blume, 2006; Höller et al., 2018). Reductions in broadband power have been associated with two of the three medication groups (Aiyer et al., 2016). Studies have shown that alpha peak frequency correlates with cognitive speed, with differences observed in individuals with psychiatric disorders, supporting expected QEEG differences between users of these medication groups and reference group (Voetterl et al., 2023). Treatment reduces the theta/beta ratio, which has previously been linked to psychiatric disorders (Isiten et al., n.d.; Mucci et al., 2006). Psychoanaleptics (N06), N=255, including antidepressants, psychostimulants, and anti-dementia drugs, have been associated with increased delta and theta power and reduced alpha and beta power, with variations based on drug type (Malver et al., 2014; Newson & Thiagarajan, 2019). The hypotheses are grounded in theoretical considerations informed by literature reviews and empirical findings from individual studies and meta-analyses.
+
+Hypothesis 1: Individuals taking Psycholeptics (N05) exhibit significant differences in EEG frequency band variables (alpha, beta, theta, delta, broadband power at Cz, alpha power and alpha peak frequency at occipital leads, and theta/beta ratio at Fz) compared to a control group without psycholeptics intake.
+
+Hypothesis 2: Individuals taking Psychoanaleptics (N06) exhibit significant differences in EEG frequency band variables (alpha, beta, theta, delta, broadband power at Cz, alpha power and alpha peak frequency at occipital leads, and theta/beta ratio at Fz) compared to a control group without psychoanaleptics intake. 
+
+Hypothesis 3: Individuals taking Antiepileptics (N03) exhibit significant differences in EEG frequency band variables compared to a control group without antiepileptics intake. 
+
+3) Dependent variable. Describe the key dependent variable(s) specifying how they will be measured. 
+The dependent variables in this study are eight EEG frequency band measures: alpha, beta, theta, delta, broadband power at the vertex side (Cz), alpha power and alpha peak frequency at occipital leads (combined O1-P7/O2-P8), and frontal theta/beta ratio (Fz). Variables measured at Cz an Fz were referenced against combined mastoids. EEG variables were defined with the following frequency band boundaries: 
+•	delta power: 0.5-3.5 Hz
+•	theta power: 4-7.5 Hz
+•	alpha power: 8-12.5 Hz
+•	beta power: 13-30 Hz
+•	broadband power: 0.5-30 Hz
+•	alpha peak frequency: 7-14 Hz
+The EEG data were collected as part of the LIFE-Adult Study (Engel et al., 2023; Loeffler et al., 2015), specifically within the "Depression Program," which included a 20-minute resting-state EEG condition to assess vigilance regulation. The EEG data were collected and analyzed as described by Jawinski et al. (2017). Here, we analyze the first five minutes the resting-state recording.
+4) Conditions. How many and which conditions will participants be assigned to?
+None, this study is cross-sectional and non-experimental. However, the groups will be defined based on medication intake. Each medication group (N03, N05, N06) will be compared to a control group consisting of participants not taking any of the respective medication.
+
+5) Analyses. Specify exactly which analyses you will conduct to examine the main question/hypothesis.
+To address our hypotheses, we will conduct multiple linear regression analyses using function “lm” in the statistical software R. Sex and age will be included as covariates. We will regress one of eight dependent variables (EEG variables) on the respective predictor variables (medication intake as binary variable in a case-control design). We will apply Bonferroni correction to account for multiple comparisons. We will regard results with p < 0.05 as nominally significant and results with p < 0.05/8 (number of dependent variables tested) as significant after multiple testing correction. 
+
+6) Outliers and Exclusions. Describe exactly how outliers will be defined and handled, and your precise rule(s) for excluding observations.
+Participants identified as extreme outliers—defined as values exceeding three times the interquartile range (IQR) above the third quartile or below the first quartile in any of the eight dependent variables—will be excluded from the analysis. 
+7) Sample Size. How many observations will be collected or what will determine sample size?
+Baseline data collection for the LIFE-Adult Study was conducted between August 2011 and November 2014, with a target of 10,000 participants (Loeffler et al., 2015). The study employed an age- and gender-stratified random sampling method, selecting participants from the Leipzig resident registry. Invitation letters were sent to randomly sampled addresses and interested individuals aged 40–79 years were invited to participate. The cohort was characterized by high education levels, employment, predominantly European descent, better health, higher marriage rates, and lower rates of smoking (Engel et al., 2023).
+EEG data were collected from N = 3,500 (??) participants in the LIFE-Adult Study (Engel et al., 2023; Loeffler et al., 2015). The preliminary sample sizes for the medication intake groups (cases) and control group are as follows: 
+•	N03 Antiepileptics, n = 93
+•	N05 Psycholeptics, n = 125
+•	N06 Psychoanaleptics, n = 255
+•	Controls: n = 3150
+The final sample size will be determined upon applying the exclusion criteria and ensuring completeness of required data.
+
+8) Other. Anything else you would like to pre-register? 
+
+Although we had access to the data, none of the analyses described above were performed prior to this study.
+
+9) Name. Give a title for this AsPredicted pre-registration 
+
+Influence of ATC Medication Groups on Resting-State EEG Power Variables in the LIFE-Adult Study
+
+Finally. For record keeping purposes, please tell us the type of study you are pre-registering.
+
+Other:  secondary analysis, cross-sectional study, observational study
+
