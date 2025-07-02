@@ -1,0 +1,332 @@
+
+Introduction
+
+As utilized by the MSLT, recording and analyzing the human EEG is the most common methodology to determine sleep stages. Changes in the power of the spectral frequency bands have robustly been demonstrated to correlate with alterations in arousal.20–24
+ EEG oscillations play a key role in information processing and
+communication between brain areas. EEG studies have shown associations between brain
+activity patterns and psychiatric disorders, demonstrating how neural oscillations reflect
+underlying brain function (Höller et al., 2018; Malver et al., 2014).
+
+Since Berger (1929) first documented the alpha brain rhythm, the electroencephalogram (EEG) has been widely used in a variety of clinical and research contexts. Distinct parameters of the EEG signal have proven diagnostic of certain neurological disorders such as epilepsy, or states of arousal such as sleep or response to anesthesia. EEG activity is often measured in terms of the amplitude of oscillations at differing frequencies, which have typically been grouped into different bands, most commonly delta (0.14 Hz), theta (4–8 Hz), alpha (8–13 Hz), and beta (13–30 Hz). Changes in the amplitude of activity within specific bands are robustly found to be associated with variations in overall arousal level as well as with different cognitive or perceptual processes. EEG characteristics of neuropsychiatric disorders are subtle, typically consisting primarily of quantitative changes in the amplitude of activity occurring at particular frequencies or over specific scalp locations corresponding to differing areas of cortex. Nevertheless, EEG recording is attractive for use in psychiatry (McLoughlin, Makeig, & Tsuang, 2013), particularly as a means of identifying neurobiological indicators that link psychiatric disorders to genetic risk factors (i.e., endophenotypes; Iacono & Malone, 2011).
+
+. Given the importance of  oscillatory activity in neural communication and the large body of literature on deviant oscillatory activity in psychiatric traits, we expect …
+
+
+Hypothesis 1: Individuals taking Psycholeptics (N05) exhibit significant differences in EEG
+frequency band variables (alpha, beta, theta, delta, broadband power at Cz, alpha power and
+alpha peak frequency at occipital leads, and theta/beta ratio at Fz) compared to a control
+group without psycholeptics intake.
+Hypothesis 2: Individuals taking Psychoanaleptics (N06) exhibit significant differences in
+EEG frequency band variables (alpha, beta, theta, delta, broadband power at Cz, alpha power
+and alpha peak frequency at occipital leads, and theta/beta ratio at Fz) compared to a control
+group without psychoanaleptics intake.
+Hypothesis 3: Individuals taking Antiepileptics (N03) exhibit significant differences in EEG
+frequency band variables compared to a control group without antiepileptics intake.
+
+
+Methods
+
+.1 Sample
+The data for these secondary analyses stems from the population-based, cross-sectional LIFE-Adult Study conducted by the
+Leipzig Research Centre for Civilization Diseases between 2011 and 2014, involving a total of 10,000 participants aged 40–79 (Engel et al., 2023; Loeffler et al., 2015).
+
+Before outlier exclusion, 105 participants were classified as antiepileptic users (N03), 140 as psycholeptic users (N05), and 287 as psychoanaleptic users (N06), while the control groups for these categories consisted of 3,363, 3,328, and 3,181 participants, respectively. Participants identified as extreme outliers—in total, 56 participants (1.61%) were removed, with the majority (n = 50) detected in the theta/beta ratio at Cz, resulting in a final clean dataset of 3,412 participants.
+
+Demographic analyses were conducted for each medication group within the study sample. For antiepileptic drug users (N03), 102 cases and 2,961 controls were identified, with a mean age of 71.3 years (SD = 4.8) among cases and 67.7 years (SD = 8) among controls; the proportion of male participants was 58.8% in cases and 51.7% in controls. The psycholeptic group (N05) comprised 135 cases and 2,961 controls, with mean ages of 71.0 years (SD = 4.6) and 67.7 years (SD = 8), and male proportions of 29.6% and 51.7%, respectively. For psychoanaleptic users (N06), 282 cases and 2,961 controls were included, with mean ages of 70.5 years (SD = 4.6) for cases and 67.7 years (SD = 8) for controls; male proportions were 41.5% and 51.7%, respectively. 
+
+Outliers
+
+The study employed an age- and gender-stratified random sampling method, selecting participants from
+the Leipzig resident registry. Invitation letters were sent to randomly sampled addresses. The cohort was
+characterized by high education levels, employment, predominantly European descent, better
+health, higher marriage rates, and lower rates of smoking (Engel et al., 2023). 
+
+The LIFE-Adult-Study is designed to investigate the prevalence and incidence of common diseases and subclinical phenotypes, as well as the interplay between genetic and lifestyle factors in disease development and progression. Emphasizing cardiovascular and metabolic disorders, cognition and brain function, depression, sleep disorders and EEG-vigilance regulation, eye diseases, vocal health, and allergies. 
+
+Baseline assessments comprised a comprehensive 5–6 hour core protocol involving structured interviews, questionnaires, physical examinations, and biospecimen collection. 
+
+Participants aged 60 and above (>3000 sample size) underwent two additional visits, each lasting 3–4 hours, which included unter anderem electroencephalography (EEG). EEG data were collected für drei Erhebnungen. Die an der wir uns bedienen hatte das Ziel to explore the regulation of vigilance and sleep-wake rhythms in relation to neuropsychiatric conditions, specifically testing the hypothesis that alterations in EEG-vigilance patterns are linked to disorders such as depression and attention deficit/hyperactivity disorder. Vigilance regulation was quantified using a 20-minute resting-state EEG and the Leipzig Vigilance Algorithm Protocol (VIGALL).(xx). 
+
+-> 5minuten
+
+
+.2 Procedure (EEG Data, einstieg)/ EEG Recording 
+VIGALL Modulbuch
+
+Resting-state EEG recordings were conducted in an electrically shielded, sound-attenuated room. Participants were seated in a comfortable, semi-reclined position. For optimal signal quality, 25 electrodes were positioned according to the extended international 10-20 system.
+
+Prior to the main recording, a Berger manoeuvre was performed, during which participants alternated between opening and closing their eyes following standardized verbal instructions. This procedure was repeated three times to ensure reliable alpha reactivity.
+
+For the main session, participants were instructed to relax, keep their eyes closed, and minimize movement for 15–20 minutes. They were informed that falling asleep was not problematic and were encouraged to relax as much as possible. The light was dimmed and the session was conducted without interruptions or background noise.
+
+After the EEG recording, participants rated the likelihood of having fallen asleep during the session and completed questionnaires assessing their current well-being.
+
+-ok
+
+b)
+
+Resting-state EEG was recorded in an electrically shielded, sound-attenuated room with participants in a semi-reclined position, using 25 electrodes in the extended 10-20 system. After a Berger manoeuvre, participants relaxed with eyes closed for 15–20 minutes, undisturbed. They were informed that falling asleep was not problematic. At session end, participants rated the likelihood of having fallen asleep.
+
+All EEGs were screened by a clinician to exclude pathological patterns and alpha variants, and resting periods were checked for disturbances. Preprocessing included filtering, segmentation, artefact screening, ICA-based removal of artefacts, sleep grapho-element marking, sampling rate reduction, and further quality control, following standard protocols to ensure data integrity.
+
+-besser
+
+c)
+
+Jawinski/Malver/Smit
+
+EEG recordings were conducted in a darkened, electrically shielded, and sound-attenuated booth to minimize external disturbances. Participants sat in a comfortable chair with neck support and were brought into a reclined position after EEG and ECG electrodes were attached. The light was dimmed, and standardized auditory instructions were delivered via speakers using Presentation software (Neurobehavioral Systems Inc., Albany, USA). All instructions followed a presentation script to ensure consistency across sessions.
+
+Following electrode placement, participants underwent a Berger maneuver and a brief cognitive activation task, in which they were asked to count backwards by six starting at 100. Subsequently, participants were instructed to close their eyes, relax as completely as possible, and not to resist any feelings of drowsiness. Resting-state EEG was then recorded for a total of 20 minutes, from which a continuous 5-minute segment was used for analysis. After the recording, participants rated the likelihood of having fallen asleep during the session on a four-point scale (“I definitely did not fall asleep” to “I definitely fell asleep”).
+
+EEG data were recorded using a 31-channel EEG amplifier (QuickAmp, Brain Products GmbH) operated by trained staff. Cleaned EEG data were imported into MATLAB, segmented into 2-second epochs, and spectral power was calculated via Fast Fourier Transformation (FFT). Power was defined as the squared radius of the orthogonal sine and cosine amplitudes, averaged over the window size, with the mean value for each frequency band used to obtain power density. To approximate normality, power values were log-transformed. The alpha peak frequency was determined using a power-weighted method.
+
+Brain Vision Analyser
+Resting-state EEG data were recorded using the Brain Vision Analyzer (Brain Products GmbH, Gilching, Germany). Participants were seated comfortably in a sound-attenuated room and instructed to relax with their eyes open/closed (je nach Paradigma). The EEG was continuously recorded from … scalp electrodes placed according to the international 10-20 system, with a sampling rate of …Hz.
+
+.3 ATC Codes
+A key strength of this study is the use of the internationally standardized Anatomical Therapeutic Chemical (ATC) classification system, as defined by the World Health Organization (WHO), to categorize medications. By systematically converting ATC codes (e.g., "#N05AH04#“: psycholeptics, like Quetiapin) into analyzable variables, we enable precise and reproducible identification of medication groups based on self-reported data. While the dataset distinguishes specific subgroups ('N05A_Antipsychotics','N05BA_Benzodiazepines','N05C_Sedatives','N06AF_MAOA','N06AB_SSRI','N06B_Stimulants') within the main ATC classes N05 (psycholeptics) and N06 (psychoanaleptics), our analysis focuses on these main groups to ensure sufficient statistical power. Each row is linked to a unique, pseudonymized participant identifier.
+Antipsychotics= Psycholeptics
+.4 Physiological Data Collection and Processing (hart Facts EEG)
+The physiological data were collected as previously described. The EEG data were collected and analyzed as described by Jawinski et al. (2017). Here, we analyze the first five minutes the resting-state recording. VIGALL is a novel EEG- and EOGbased computer algorithm utilizing low-resolution electromagnetic tomography (LORETA). By measuring the topographic distribution and spectral composition of electroencephalic activity as well as the presence of slow eye movements, VIGALL enables the objective classification of so-called stages of vigilance (brain arousal), ranging from focused wakefulness via relaxed wakefulness and drowsiness to sleep onset. undergoing a 20-min eyes-closed monotonous resting EEG paradigm.
+todo
+
+
+Eight EEG frequency band measures were assessed: alpha, beta, theta, delta, and broadband power at the vertex site (Cz); alpha power and alpha peak frequency at occipital leads (combined O1-P7/O2-P8); and the frontal theta/beta ratio (Fz). Variables measured at Cz and Fz were referenced against combined mastoids. The EEG variables were defined according to the following frequency band boundaries: delta power (0.5–3.5 Hz), theta power (4–7.5 Hz), alpha power (8–12.5 Hz), beta power (13–30 Hz), broadband power (0.5–30 Hz), and alpha peak frequency (7–14 Hz) consistent with (Malone et al., 2014). 
+
+
+
+.5 Statistical Analyses
+
+
+The statistical analysis followed a structured, pre-registered protocol. All EEG and clinical data were merged and rigorously cleaned: duplicate and inconsistent records were removed, and the exact age at EEG recording was calculated for each participant. Only relevant variables (age, sex, ATC medication codes, EEG parameters) were retained. No experimental conditions were assigned, as this is a cross-sectional, non-experimental study. Instead, participants were classified into case groups based on medication intake (N03, N05, or N06) and compared to corresponding control groups of participants not taking the respective medication. All necessary binary variables for group assignment were created accordingly. These groups are widely used and integral to the data collection process, providing strong statistical reliability.
+
+
+To ensure data quality, extreme outliers for the eight main EEG measures were identified and excluded using an IQR-based rule. Case-control datasets were then constructed for each medication group, and demographic characteristics (age, sex) were compared descriptively between cases and controls. The resulting case-control subsets for each medication group were saved separately for further analysis.
+
+The primary analysis consisted of multiple linear regressions for each medication group and EEG variable (EEG ~ medication + age + sex), resulting in 24 main models. All regression results (coefficients, p-values, effect sizes) were systematically tabulated and formatted for reporting. All analyses were conducted in R using reproducible scripts.
+-	Effekte der Covariaten
+
+We will examine whether different medical groups influence EEG variables differently to
+controls using quantitative electroencephalography (QEEG) data from the first five minutes of
+a resting-state EEG task in case-control design.
+
+
+
+All statistical analyses were conducted using R (version v4.3.0). To examine the association between medication group and EEG power variables, multiple linear regression analyses were performed separately for each of the eight dependent EEG measures. Medication group versus control group served as the independent variable in each model, with sex and age included as covariates. The regression models were implemented using the “lm” function in R. 
+
+Extreme outliers—defined as values exceeding three times the interquartile range (IQR) above the third quartile or below the first quartile in any dependent EEG variable—were excluded from analyses. Group assignment was based on ATC-coded medication information, allowing for a standardized and reproducible categorization of pharmacological exposures. For each medication group, comparisons were made with a corresponding control group of participants without intake of the respective medication class. 
+-	doppelung
+Statistical significance was determined at an alpha level of p < .05 (two-tailed).  We applied Bonferroni
+correction to account for multiple comparisons. We regard results with p < 0.05 as
+nominally significant and results with p < 0.05/8 (number of dependent variables tested) as
+significant after multiple testing correction. Given that our primary hypotheses focused on effects within medication groups, we applied the Bonferroni correction per group (8 tests each), rather than across all 24 tests. 
+After applying the Bonferroni correction for 8 tests (corrected significance level α = 0.00625), the effects of N03 on occipital peak frequency (p = 0.0009) and N06 on occipital peak frequency (p = 0.0042) remain significant. The other previously significant findings, such as the effect of N05 on beta power (p = 0.0362) or N06 on TBR (p = 0.0432), no longer reach statistical significance after correction. The effect of N05 on beta power and N06 on TBR showed nominal significance (p < .05) but did not survive correction for multiple comparisons. These results may indicate potential associations that warrant further investigation in larger samples. Bonferroni
+
+The results indicate that both age and sex are important predictors for the EEG parameters analyzed. Statistical significance is extremely high, as indicated by the very small p-values (for age: p-values ranged from 1.9×10⁻²⁵ to 8.5×10⁻⁵; for sex: from 2.5×10⁻⁴⁰ to 3.9×10⁻¹²), and all eight EEG power variables tested show significant effects for both predictors (p < 0.05 in all cases).
+
+However, the practical relevance, as reflected by the effect sizes (Eta²), remains moderate, with most values falling within the small to moderate range (from 6.3×10⁻³ to 5.1×10) exceeding the 0.01 threshold. These findings suggest that age and sex should be considered as relevant covariates when interpreting EEG data, as their influence is robust across all examined variables, even if the magnitude of their impact is not large.
+Covariates
+
+
+
+
+
+
+
+
+
+
+
+Results
+Textteile:
+**Note.** *p* < .05 (*), **p* < .01 (**), ***p* < .001 (***); partial η² = partial eta squared.  
+EEG variables: Occipital Peak Frequency in Hertz (Hz), Beta band power in decibels per Hertz (dB/Hz), Theta/Beta Ratio is dimensionless.
+
+Note. N (cases/controls): N03 = 102/2961, N05 = 135/2961, N06 = 282/2961.
+
+This table presents the results of linear regression analyses examining the association between three medication groups (Med. Group) N03: antiepileptics, N05: psycholeptics, N06: psychoanaleptics; ATC classification and eight EEG outcome variables. For each medication group and EEG variable, the t-value, degrees of freedom (df), p-value, and partial eta squared (η²) are reported. 
+EEG variable abbreviations: pow_cz_broadband = broadband power at Cz, pow_cz_delta = delta power at Cz, pow_cz_theta = theta power at Cz, pow_cz_alpha = alpha power at Cz, pow_cz_beta = beta power at Cz, pow_occipital_alpha = alpha power at occipital electrodes, pow_occipital_peakfreq = occipital peak frequency (Hz), tbr_tbr_cz = theta/beta ratio at Cz.
+Linear regression results for the effects of ATC medication groups (N03: antiepileptics, N05: psycholeptics, N06: psychoanaleptics) 
+on resting-state EEG power variables. Shown are t-values, degrees of freedom (df), p-values, and partial eta squared (η²) for each group and variable. 
+p < .05 (*), p < .01 (**), p < .001 ();.  partial η² = partial eta squared,Occipital Peak Frequency is in Hertz (Hz); all band power measures are in decibels per Hertz (dB/Hz); Theta/Beta Ratio at Cz is unitles 
+
+
+Table 1. Linear Regression results for the effects of ATC medication groups on resting-state EEG power variables
+
+
+Medication 
+ Group
+	
+EEG-Variable	
+N (case/control)	
+t	
+df	
+p	
+partial η²
+N03 Antiepileptics
+
+
+
+
+
+
+
+N05 Psycholeptics
+
+
+
+
+
+
+
+N06 Psychoanaleptics	Occipital Peak Frequency
+Beta band power at Cz
+Alpha band power at Cz
+Broadband power at Cz
+Delta band power at Cz
+Theta band power at Cz
+Occipital Alpha Power
+Theta/Beta Ratio at Cz
+Beta band power at Cz
+Alpha band power at Cz
+Broadband power at Cz
+Delta band power at Cz
+Theta band power at Cz
+Occipital Alpha Power
+Occipital Peak Frequency
+Theta/Beta Ratio at Cz
+Occipital Peak Frequency
+Beta band power at Cz
+Alpha band power at Cz
+Broadband power at Cz
+Delta band power at Cz
+Theta band power at Cz
+Occipital Alpha Power
+Theta/Beta Ratio at Cz	102 / 2961
+102 / 2961
+102 / 2961
+102 / 2961
+102 / 2961
+102 / 2961
+102 / 2961
+102 / 2961
+135 / 2961
+135 / 2961
+135 / 2961
+135 / 2961
+135 / 2961
+135 / 2961
+135 / 2961
+135 / 2961
+282 / 2961
+282 / 2961
+282 / 2961
+282 / 2961
+282 / 2961
+282 / 2961
+282 / 2961
+282 / 2961	-3.33
+-0.35
+0.58
+0.13
+0.18
+1.02
+-0.13
+0.67
+2.10
+1.21
+1.69
+0.58
+0.22
+0.79
+0.62
+-1.83
+-2.87
+0.34
+-0.21
+0.53
+1.24
+1.63
+-0.43
+2.02	3059
+3059
+3059
+3059
+3059
+3059
+3059
+3059
+3092
+3092
+3092
+3092
+3092
+3092
+3092
+3092
+3239
+3239
+3239
+3239
+3239
+3239
+3239
+3239	0.0009      ***
+0.7271
+0.5605
+0.8976
+0.8602
+0.3068
+0.8941
+0.5036
+0.0362        *
+0.2250
+0.0907
+0.5629
+0.8287
+0.4282
+0.5324
+0.0671
+0.0042       **
+0.7359
+0.8313
+0.5930
+0.2134
+0.1038
+0.6676
+0.0432        *	0.0065
+0.0004
+0.0000
+0.0001
+0.0002
+0.0001
+0.0002
+0.0001
+0.0031
+0.0007
+0.0018
+0.0002
+0.0000
+0.0002
+0.0003
+0.0027
+0.0031
+0.0002
+0.0000
+0.0002
+0.0003
+0.0005
+0.0001
+0.0004
+Note.  p < .05 (), p < .01 (), p < .001 (); partial η² = partial eta squared. Occipital Peak Frequency in Hertz (Hz); all band power in decibels per Hertz (dB/Hz); Theta/Beta Ratio at Cz is unitless. Sample sizes (N, cases/controls): N03 = 102/2961, N05 = 135/2961, N06 = 282/2961. 
+Figure 1 A-D. Boxplots comparing EEG variables between control and case groups across ATC medication groups N03, N05 and N06
+
+
+ 
+A) N03 (antiepileptics): occipital peak frequency (Hz); (B) N06 (psychoanaleptics): occipital peak frequency (Hz); (C) N05 (psycholeptics): beta band power at Cz (dB/Hz); (D) N06 (psychoanaleptics): theta/beta ratio at Cz (unitless). Center lines represent the median, boxes the interquartile range, whiskers and caps the data range, and individual points show participant values. Note. “Control” refers to participants not taking the respective medication group; “Case” refers to those taking the medication. Group sizes (n) for each comparison are shown on the x-axis.Reported p-values: (A) p = 0.0009***; (B) p = 0.0042**; (C) p = 0.0362*; (D) p = 0.0432* Significance levels: * p < .05 (*), ** p < .01 (**), *** p < .001 (***)
+
+
+
+
+
